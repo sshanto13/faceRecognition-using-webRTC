@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.p-r-0 {
+    padding-right: 0px;
+}
+
+.online-registration {
+    min-height: calc(100vh - 40px);
+}
+
+.heading {
+    color: #222;
+    font-size: 27px;
+    padding: 20px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.m-t-m-20 {
+    margin-top: -20px;
+}
+
+.save-btn {
+    position: relative;
+    top: -52px;
+}
+
+.m-t-m-27 {
+    margin-top: -27px;
+}
+
+.user-title {
+    font-size: 27px;
+    color: blue;
+    padding-left: 0px;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+.m-l-m-50 {
+    margin-left: -50px;
+}
+
+.input-group {
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+
+.input-group lavel {
+    text-align: left;
+    margin: 0px auto;
+}
+
+.input-group input {
+    width: 90%;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 15px;
+    border: 1px solid #5E2E91;
+    margin: 0px auto;
+}
+
+.register {
+    vertical-align: middle;
+    line-height: 22px;
+    padding: 2px 5px;
+    height: auto;
+    font-size: inherit;
+    margin: 0;
+    background: #007dc5;
+    border: 1px solid #007dc5;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.error-message {
+    padding: 5px 10px 6px 10px;
+    background: #ddd;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    border-radius: 3px;
+}
+
+.content {
+    background: #fff;
+    width: 90%;
+    padding: 5px;
+    color: #000;
+}
+
+.footer-copyright {
+    color: #222;
+    font-size: 12px;
+}
+
+
+/*
+video css
+*/
+
+li {
+    border-bottom: 1px solid rgb(189, 189, 189);
+    border-left: 1px solid rgb(189, 189, 189);
+    padding: .5em;
+}
+
+label {
+    display: inline-block;
+    width: 8em;
+}
+
+h1 span {
+    background: yellow;
+    border: 2px solid #8e1515;
+    padding: 2px 8px;
+    margin: 2px 5px;
+    border-radius: 7px;
+    color: #8e1515;
+    display: inline-block;
+}
+
+.recordrtc button,
+.recordrtc select {}
+
+.recordrtc,
+.recordrtc .header {
+    display: block;
+    text-align: center;
+    padding-top: 0;
+}
+
+.recordrtc video,
+.recordrtc img {
+    width: 100%!important;
+    vertical-align: top;
+    height: 336px!important;
+    border: 1px solid #dedede;
+}
+
+.common-btn {
+    vertical-align: middle;
+    line-height: 22px;
+    padding: 2px 5px;
+    height: auto;
+    font-size: inherit;
+    margin: 0;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.blue-btn {
+    background: #007dc5;
+    border: 1px solid #007dc5;
+}
+
+.red-btn {
+    background: red!important;
+    border: 1px solid red!important;
+}
+
+.m-l-m-173 {
+    margin-left: -90px;
+    margin-top: -9px;
+}
+
+.save-on-server {
+    top: -46px;
+    position: relative;
+    margin-left: 116px;
+}
+
+.recordrtc audio {
+    vertical-align: bottom;
+}
+
+.recordrtc option[disabled] {
+    display: none;
+}
+
+.recordrtc select {
+    font-size: 17px;
+}
